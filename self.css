@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    background-color: rgba(4, 4, 90, 0.495);
+    height: 90px;
+}
+nav ul{
+display: flex;
+justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none; 
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(128, 62, 124);
+}
+.left {
+    font-size: 2rem;
+    color: white;
+}
+#about {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.about {
+    margin: 0 auto;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.leftsection {
+    flex: 1;
+    padding: 0 20px;
+    font-size: 2rem;
+}
+
+.rightSection {
+    flex: 1;
+    padding: 0 20px;
+    text-align: right;
+}
+
+.rightSection img {
+    max-width: 100%;
+    height: auto;
+}
+
+#projects {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.project {
+    text-decoration: underline;
+    font-size: 3rem;
+}
+
+.project-list {
+    list-style-type: disc;
+    padding-left: 200px;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.project-list li {
+    margin: 10px 0;
+}
+
+#contact {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 1 rem;
+}
+
+.contact {
+    font-size: 3rem;
+    text-decoration: underline;
+    display: inline-block;
+}
